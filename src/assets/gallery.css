@@ -1,0 +1,39 @@
+.gallery {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* overflow-x: hidden; */
+}
+
+.gallery-title {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.gallery-content {
+    display: flex;
+    gap: 3rem;
+}
+
+.gallery-box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+.gallery-img {
+    width: 200px;
+    height: 200px;
+    background-color: var(--color-block);
+}
+
+.gallery-label {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
