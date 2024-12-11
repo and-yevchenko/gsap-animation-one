@@ -1,4 +1,4 @@
 'use strict'
+import { startscreenAnimation } from './sections/startscreen'
 
-import './style.css'
-import './sections/startscreen'
+startscreenAnimation()
