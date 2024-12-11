@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     padding: 2rem;
+    /* position: relative; */
 }
 
 .startscreen-content {
@@ -29,4 +30,48 @@
     font-weight: 600;
     font-size: 1rem;
     letter-spacing: 0.1rem;
+}
+
+.startscreen-star {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+}
+
+.star-1 {
+    bottom: 10rem;
+    left: 10rem;
+}
+
+.star-2 {
+    width: 32px;
+    height: 32px;
+    top: 10rem;
+    right: 25rem;
+}
+
+.star-3 {
+    width: 24px;
+    height: 24px;
+    top: 23rem;
+    right: 27rem;
+}
+
+.star-4 {
+    top: 15rem;
+    right: 20rem;
+}
+
+.star-5 {
+    width: 32px;
+    height: 32px;
+    top: 30rem;
+    right: 30rem;
+}
+
+.star-6 {
+    width: 24px;
+    height: 24px;
+    top: 14rem;
+    right: 10rem;
 }
