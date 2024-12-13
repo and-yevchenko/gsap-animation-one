@@ -1,10 +1,5 @@
-'use strict'
-import { cardsAnimation } from './animations/cards';
-import { contentBoxAnimation } from './animations/content-box';
-import { galleryAnimation } from './animations/gallery';
-import { startscreenAnimation } from './animations/startscreen'
+'use strict';
 
-startscreenAnimation();
-cardsAnimation();
-contentBoxAnimation();
-galleryAnimation();
+import { runAnimations } from './animations/runAnimations';
+
+runAnimations();
