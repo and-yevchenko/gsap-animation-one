@@ -15,6 +15,7 @@ export function cardsAnimation() {
         transformOrigin: 'left center',
         ease: 'power3',
         stagger: 1,
+        duration: 1,
     });
 
     gsap.from('.cards-text', {
@@ -28,5 +29,6 @@ export function cardsAnimation() {
         transformOrigin: 'top center',
         ease: 'none',
         stagger: 1,
+        duration: 1,
     })
 }
