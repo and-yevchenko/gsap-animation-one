@@ -1,4 +1,6 @@
 'use strict'
-import { startscreenAnimation } from './sections/startscreen'
+import { cardsAnimation } from './animations/cards';
+import { startscreenAnimation } from './animations/startscreen'
 
-startscreenAnimation()
+startscreenAnimation();
+cardsAnimation();
